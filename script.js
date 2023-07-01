@@ -33,6 +33,25 @@ let mySampleObject = {
 
 //Make sure to make at least 3 animal objects with these keys inside of the myZooAnimals array!
 
-let myZooAnimals;
+let myZooAnimals = [
+  {
+    animalType: "Reptile",
+    name: "Gila Monster",
+    age: "6",
+    pictureURL: "images/gilamonster.jpg",
+  },
+  {
+    animalType: "Mammal",
+    name: "Platypus",
+    age: "5",
+    pictureURL: "images/platypus.jpg",
+  },
+  {
+    animalType: "Bird",
+    name: "Shoebill Stork",
+    age: "7",
+    pictureURL: "images/shoebill.jpg",
+  },
+]
 
 //END OF ASSIGNMENT
